@@ -1,0 +1,15 @@
+h1. SWEDISH_COMPANY_INFO_SCRAPER
+
+_Ruby: Simple, scrapes detailed info about a company based on a organization number from allabolag.se._
+
+h2. Usage
+
+<pre>
+require 'swedish_company_info_scraper'
+
+SwedishCompanyInfoScraper::AllaBolag.new("556608-0155", true).run
+</pre>
+
+h2. License
+
+Copyright (c) 2009 Jonas Grimfelt, released under the MIT-license.
